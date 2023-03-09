@@ -17,6 +17,7 @@ public class Lab {
      */
     public void throwCustomException() throws CustomException{
         throw new CustomException();
+        return;
 
     }
 
